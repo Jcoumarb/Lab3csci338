@@ -35,6 +35,10 @@ Date:   Sun Feb 4 12:46:28 2024 -0500
 1. Write a function that takes in a list of integers as an argument
 and returns true if it contains two integers that are the same, false
 otherwise.
+
+For the java solution, I had an external loop that looked over everything in the array and then an internal loop that looked from one number past that point to the end
+For the python solution, I created a set and put each number into in as after checking if it was already in the set, at which point it would return true because it's a duplicate
+The trade-off is that while the python solution is faster, it takes more memory
 #Subcomammands
 status - shows the current state of git and your current branch 
 add - puts changes in the staging area which is where files wile be commited from
